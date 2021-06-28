@@ -1,0 +1,17 @@
+.jumbotron{
+    background-color: #171717;
+    color: #fff; 
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bitter', serif;  
+}
+.navbar{
+    background-color: #121212;
+}
+.textColor{
+    color: #fff;
+}
+.rounded-circle{
+    margin-bottom: 24px;
+}
