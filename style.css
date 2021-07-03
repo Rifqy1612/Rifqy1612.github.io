@@ -18,3 +18,54 @@ h1{
 .navbar-brand{
     font-family: 'Yellowtail', cursive;
 }
+.szLogo{
+    font-size: 3rem;
+}
+/* Effect Icon */
+.efekul{
+    position: relative;
+    top: 50%;  width: 100%;   text-align: center;
+    transform: translate(0,-50%);
+}
+.efekul .efekli{
+    list-style: none;
+    display: inline-block;
+}
+.efekul .efekli .efeka{
+    position: relative;
+    text-decoration: none;   color: #fff;
+    display: inline-block;
+}
+.efekul .efekli .efeka::before{
+    font-family: 'fontAwesome'; 
+   position: relative;
+   top: 0;   left: 0;
+   display: block;
+    padding: 10px 40px;
+    font-size: 40px;
+}
+.efekul .efekli .efeka::after{
+    content: attr(data);
+    position: relative;
+    display: block;
+    font-size: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;   left: 50%;
+    transition: .9s;
+}
+.efekul .efekli:hover .efeka::after{
+    width: 100%;  left: 0;
+}
+.efekul .efekli .efeka.facebook::before{
+    color: white;    
+}
+.efekul .efekli .efeka.github::before{
+    color: white;
+}
+.efekul .efekli .efeka.instagram::before{
+    color: white;
+}
+.efekul .efekli .efeka.whatsapp::before{
+    color: white;
+}
